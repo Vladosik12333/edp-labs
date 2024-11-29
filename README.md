@@ -1,6 +1,5 @@
 # Python Cheatsheet
 
----
 
 ## Variables
 > The bucket with a specific name that stores some data (value)
