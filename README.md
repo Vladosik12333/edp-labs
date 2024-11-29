@@ -25,8 +25,8 @@ x = {
 ## Loops
 > The code construction that lets iterates elements
 ```
-for (i = 0; i<=10; i++):
-  print(f"I iterate till the 10 from 0. Right now, I iterated {i} element")
+for i in range(10):
+  print(f"I iterate till the 9 from 0. Right now, I iterated {i} element".)
 ```
 
 ## if statement
@@ -35,7 +35,7 @@ for (i = 0; i<=10; i++):
 eligable_age_to_buy_drinks = 18
 my_age = 20
 
-if (my_age > eligable_age_to_buy_drinks):
+if my_age > eligable_age_to_buy_drinks:
   print("Person can buy drinks")
 else:
   print("Person can NOT buy drinks")
@@ -45,8 +45,8 @@ else:
 > The code block with a specific name that can be called with or without parameters and may or may not return the value
 ```
 # function
-print_message(message):
-  print(f"The message printed: {message}")
+def print_message(message):
+ print(f"The message printed: {message}")
 
 # calling function so that it executing
 print_message("Hi all!!")
@@ -61,8 +61,9 @@ class Person:
     self.age = age
 
   def print_person_data(self):
-    print(f"{self.name}({self.age})")
+    print(f"Name: {self.name}\nAeg: {self.age} years")
 
 p1 = Person("John", 36)
 
-p1.print_person_data()```
+p1.print_person_data()
+```
