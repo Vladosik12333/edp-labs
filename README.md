@@ -61,7 +61,7 @@ class Person:
     self.age = age
 
   def print_person_data(self):
-    print(f"Name: {self.name}\nAeg: {self.age} years")
+    print(f"Name: {self.name}\nAge: {self.age} years")
 
 p1 = Person("John", 36)
 
