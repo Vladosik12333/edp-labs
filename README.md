@@ -3,11 +3,11 @@
 
 ## Variables
 > The bucket with a specific name that stores some data (value)
-`x = 5`
+```x = 5```
 
 ## Lists
 > The data structure that stores a collection of elements
-`x = ["element1", "element2"]`
+```x = ["element1", "element2"]```
 
 ## Dictionaries
 > The data structure that stores a mapped key-value data
