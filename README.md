@@ -15,7 +15,8 @@ x = ["element1", "element2"]
 
 ## Dictionaries
 > The data structure that stores a mapped key-value data
-```x = {
+```
+x = {
 "age": 20,
 "first_name": "Vladyslav"
 }
